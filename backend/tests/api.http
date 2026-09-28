@@ -1,0 +1,26 @@
+### 1. Register Student
+POST http://localhost/canteenq/backend/api/auth/register.php
+Content-Type: application/json
+
+{
+  "name": "New Student",
+  "email": "student2@college.local",
+  "password": "Student@123",
+  "phone": "9876543210",
+  "college_id": "CSE2026099"
+}
+
+### 2. Login Admin
+POST http://localhost/canteenq/backend/api/auth/login.php
+Content-Type: application/json
+
+{
+  "email": "admin@canteen.local",
+  "password": "Admin@123"
+}
+
+### 3. Get Menu
+GET http://localhost/canteenq/backend/api/menu/list.php
+
+### 4. Get Public Queue Status
+GET http://localhost/canteenq/backend/api/queue/status.php

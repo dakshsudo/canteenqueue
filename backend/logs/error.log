@@ -1,0 +1,20 @@
+[2026-09-28 19:32:11] Exception: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in C:\xampp\htdocs\canteenqueue\backend\src\Database.php:18
+Stack trace:
+#0 C:\xampp\htdocs\canteenqueue\backend\src\Database.php(18): PDO->__construct('mysql:host=127....', 'root', Object(SensitiveParameterValue), Array)
+#1 C:\xampp\htdocs\canteenqueue\backend\api\menu\list.php(9): Database::pdo()
+#2 {main}
+[2026-09-28 19:34:48] Exception: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in C:\xampp\htdocs\canteenqueue\backend\src\Database.php:18
+Stack trace:
+#0 C:\xampp\htdocs\canteenqueue\backend\src\Database.php(18): PDO->__construct('mysql:host=127....', 'root', Object(SensitiveParameterValue), Array)
+#1 C:\xampp\htdocs\canteenqueue\backend\api\auth\login.php(17): Database::pdo()
+#2 {main}
+[2026-09-28 19:34:57] Exception: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in C:\xampp\htdocs\canteenqueue\backend\src\Database.php:18
+Stack trace:
+#0 C:\xampp\htdocs\canteenqueue\backend\src\Database.php(18): PDO->__construct('mysql:host=127....', 'root', Object(SensitiveParameterValue), Array)
+#1 C:\xampp\htdocs\canteenqueue\backend\api\auth\login.php(17): Database::pdo()
+#2 {main}
+[2026-09-28 19:35:07] Exception: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in C:\xampp\htdocs\canteenqueue\backend\src\Database.php:18
+Stack trace:
+#0 C:\xampp\htdocs\canteenqueue\backend\src\Database.php(18): PDO->__construct('mysql:host=127....', 'root', Object(SensitiveParameterValue), Array)
+#1 C:\xampp\htdocs\canteenqueue\backend\api\auth\login.php(17): Database::pdo()
+#2 {main}
